@@ -59,10 +59,10 @@ export function List() {
   
     return (
       data.map((Data: Item) => (
-        <li className="h-10 w-full bg-black" key={Data.id}>
-          <a className="flex items-center" href={Data.src}>
-            <img src={Data.img} alt={Data.alt} />
-            <p className="text-white text-2xl">{Data.name}</p>
+        <li className=" flex rounded-lg w-11/12 hover:bg-gray-800  bg-black" key={Data.id}>
+          <a className="h-16 p-5 w-full  flex items-center justify-start gap-4 " href={Data.src}>
+            <img className=" w-10" src={Data.img} alt={Data.alt} />
+            <p className="text-white inline-block w-full text-start overflow-hidden text-xl  ">{Data.name}</p>
           </a>
         </li>
       ))
