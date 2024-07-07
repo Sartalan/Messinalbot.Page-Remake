@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Modern Age';
+    src: url('../public/fonts/modern_age/Modern\ Age.ttf') format('truetype');
+    /* Agrega otras fuentes y formatos aquí si es necesario */
+  }
+
 *,
 html {
     padding: 0;
@@ -10,9 +16,42 @@ html {
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+    background-color:black;
+    width: .75rem;
+}  
+
+body::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 1rem;
+    
+}
+
+body::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+    border-radius: 2rem;
+}
+
+/*? Clases Personalizadas*/
+
+.title-page {
+    color: rgb(255, 72, 252);
+    font-weight: bold;
+    font-family: Modern Age;
+}
+
+.text-page {
+    color: rgb(79, 241, 255);
+}
+
+.bg-home {
+    background-color: #1513168e;
+}
+
 .nav {
     width: 20%;
 }
+
 .section {
     width: 100%;
 }

@@ -6,6 +6,8 @@ export default {
     extend: {
       backgroundImage: {
         'robot': "url('./neon_nights.jpg')",
+      },
+      extend: {
       }
     },
   },
