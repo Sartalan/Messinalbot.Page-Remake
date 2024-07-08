@@ -1,6 +1,9 @@
+
+//? Crear Estilo del Titulo en Mobile (Ver Página Original) []
+
 export function HomeScreen() {
     return (
-        <article id="Home" className="bg-black h-screen flex flex-col justify-center p-14 gap-8 ">
+        <article id="Home" className="bg-black lg:h-screen flex flex-col justify-center p-14 gap-8 ">
             <h2 className="title-page text-center text-6xl select-none">{"< Cristionel | Messinaldo />"}</h2>
             <div className="p-8 bg-page rounded">
                 <p className="text-page text-center text-4xl select-none">
