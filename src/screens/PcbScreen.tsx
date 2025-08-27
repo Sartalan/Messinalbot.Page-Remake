@@ -1,3 +1,5 @@
+
+
 export function PcbScreen() {
 
     interface Item {
@@ -61,15 +63,16 @@ export function PcbScreen() {
     ]
 
     return (
-        <article id="PCB" className="bg-black lg:h-screen pt-14 flex flex-col items-center w-full ">
-            <div className="flex flex-col p-6 gap-4">
+        <article id="PCB" className="bg-black lg:h-screen pt-14 flex justify-center flex-col  w-full ">
+            <div className="flex flex-col p-4 gap-4">
                 <h3 className="title-page  text-center lg:text-start text-5xl select-none">PCB - ROBOT</h3>
                 <p className=" bg-page text-page text-pretty p-4 text-3xl select-none">Circuito con sensores infrarrojos y de ultrasonido, botón de encendido, y la capacidad de controlar dos motores. A más detalles de su funcionamiento leer la documentación respectiva en el repositorio de Github del proyecto.</p>
             </div>
 
             <div className=" flex-wrap lg:flex-nowrap flex gap-10 p-6 ">
-                <div className="rounded flex items-center justify-center  ">
-                    <img src="pcb.png" alt="" />
+                <div className="rounded flex items-center justify-center border-solid border-white border-b-2 ">
+                   <img className="w-full" src="pcb.png" alt="" />
+ 
                 </div>
 
                 <div className=" w-full flex-grow-0 p-5 ">
